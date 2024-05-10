@@ -1,4 +1,14 @@
 # Hot 'n Ready Pies
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools Used](#tools-used)
+- [Mission Overview](#mission-overview)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results & Findings](results-&-findigs)
+- [What's Next](what's-next)
+- [Limitations](#limitations)
 
 ## Project Overview
 This project will provide insights on a year's worth of sales data from a large pizza parlor. We will be analyzing the data to find key performance indicators, as well as trends.
@@ -25,7 +35,7 @@ The goal of this project is to create vizualizations that address the following 
     - Percentage of Sales by Pizza Category
     - Top 5 Best/Worst Sellers
 
-### Exploratory Data Analysis - Code Included
+### Exploratory Data Analysis
 
   #### KPI's
 - Total Revenue
@@ -82,17 +92,27 @@ FROM pizza_db
 
 
 ### Reults & Findings
-1. Daily orders are the **highest** on the **Friday** & **Saturday**
-2. 
+
+Based on the analysis:
+1. Daily orders are the highest on the Friday & Saturday
+2. Classic Pizza accounts for the largest percentage of Total Sales and Orders
+3. Large pizza represents the size of pizza with the highest percentage of Total Sales
+4. The best Seller is the Classic Deluxe Pizza and the worst seller is the Brie Carrie Pizza
 
 
+### What's next?
 
-
-
+Recommendations based on the results:
+- Sales before 11am and after 10pm are very low; consider opening later and closing earlier to reduce overhead costs.
+- Pizza sizes above large are selling slower than all other sizes; consider offering promotional deals to these sizes to increase sales percentage.
+- The Brie Carrie Pizza is the least ordered pizza, consider replacing the name or ingredients of this pizza to attract more customers.  
   
 
+### Limitations
+- This dataset only provides a year's worth of data, which doesnt give us a chance to explore yearly trends.
 
-
+- The dataset also fails to deliver any information about the profitability of the menu items, so certain datapoints may be misleading.
+    - For example, the best selling pizza may mot be profitable, or the least selling pizza could be the most profitable.
 
 
 
