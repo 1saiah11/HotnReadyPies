@@ -14,6 +14,9 @@
 This project will provide insights on a year's worth of sales data from a large pizza parlor. We will be analyzing the data to find key performance indicators, as well as trends.
 These insights will be conveyed using an excel dashboard.
 
+![Dashboard_ss](https://github.com/1saiah11/HotnReadyPies/assets/167952754/1dc3f236-ea1c-4857-824f-d4cd4a17fd7c)
+
+
 ### Data Source
 Sales Data: The primary dataset used for this analysis is the "pizza_sales.csv" file, which contains descriptive information on each transaction made by the company.
 
@@ -113,8 +116,6 @@ Recommendations based on the results:
 
 - The dataset also fails to deliver any information about the profitability of the menu items, so certain datapoints may be misleading.
     - For example, the best selling pizza may mot be profitable, or the least selling pizza could be the most profitable.
-
-
 
 
 
